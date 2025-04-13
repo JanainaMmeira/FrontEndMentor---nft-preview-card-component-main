@@ -1,4 +1,5 @@
-#:construction_worker:Frontend Mentor - NFT preview card component
+
+## ![image](https://github.com/user-attachments/assets/27334a9e-25b7-4a59-ab06-3c4de8bccc7f) Frontend Mentor - NFT preview card component ![image](https://github.com/user-attachments/assets/27334a9e-25b7-4a59-ab06-3c4de8bccc7f) 
 
 ![Design preview for the NFT preview card component coding challenge](./design/desktop-preview.jpg)
 
