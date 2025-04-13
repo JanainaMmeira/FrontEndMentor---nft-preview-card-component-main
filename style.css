@@ -15,8 +15,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    overflow-x: hidden;
-    overflow-y: hidden;
+    
 }
 
 main {
@@ -155,3 +154,71 @@ hr{
 
     /* Media Query para telas pequenas (320px a 768px) */
 @media screen and (min-width: 320px) and (max-width: 768px) {
+
+  body {
+    height: 90%;
+    }
+
+    main {
+        width: 60%;
+        height: 50%;
+        margin: 0 auto;
+        padding: 0 10px;
+        border-radius: 10px;
+    }
+
+    img {
+      width: 250px;
+  }
+  
+  div.texto1 {
+      margin: 0 15px;    
+  }
+
+  
+h1 {
+  font-size: 19px;
+}
+
+p {
+ font-weight: 13px;
+ text-align: left;
+ 
+}
+
+div.texto2 {
+  columns: 2;
+}
+
+.veth {
+  background-size: 11px;
+  font-size: 14px;
+}
+
+
+div.dias {
+  margin: 0 0 0 15px;
+}
+
+.imagem2 {
+  gap: 5px; 
+  }
+
+  div.imagem2 > img {
+    width: 35px;
+  }
+
+  .nome {
+    font-size: 14px; 
+        margin: 0 30px; 
+        transform: translate(0%, -40%);
+  }
+
+
+  footer {
+    font-size: 11px;
+    margin-top: 10px;
+    padding-bottom: 20px;
+  }
+  
+}
