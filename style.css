@@ -1,0 +1,157 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+/** {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+*/
+
+body {
+    height: 100vh;
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+main {
+    width: 350px;
+    height: 620px;
+    align-items: center; 
+    border-radius: 10px;
+    font-family: "Outfit", sans-serif;
+    background-color: hsl(216, 50%, 16%);
+    
+
+    box-shadow: 0px 15px 19px 5px hsl(217deg 53.3% 7.29%);
+}
+
+div.imagem1 {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+img {
+    width: 300px;
+    margin-top: 25px;
+    border-radius: 10px;
+}
+
+div.texto1 {
+    margin: 0 25px;
+    text-align: justify;
+    font-family: "Outfit", sans-serif;
+  
+}
+
+h1 {
+    font-family: "Outfit", sans-serif;
+    font-weight:500;
+    color: white;
+    margin-top: 30px;
+}
+
+p {
+   color: hsl(215, 51%, 70%);
+   font-weight: 18px;
+}
+
+div.texto2 {
+    columns: 2;
+    margin: 0 25px;
+    padding-top: 10px;
+}
+
+.veth {
+    background-image: url('images/icon-ethereum.svg');
+    background-repeat: no-repeat;
+    background-size: 12px;
+    color: hsl(178, 100%, 50%);
+}
+
+p#eth {
+    margin: 0 20px;
+    color: hsl(178, 100%, 50%);
+}
+
+div.dias {
+    background-image: url('images/icon-clock.svg');
+    background-repeat: no-repeat;
+    background-size: 20px;
+    margin: 0 0 0 43px;
+    color: hsl(178, 100%, 50%);
+}
+
+#dias2 {
+    margin: 30px 0 0 0;
+    text-align: right;
+}
+
+hr{
+    color:hsl(215, 32%, 27%);
+    width: 90%;  
+  }
+
+  .imagem2 {
+    display: flex; 
+    align-items: center;
+    gap: 10px; 
+  }
+
+  div.imagem2 > img {
+    width: 40px;
+    transform: translate(50%, -40%);
+    border-radius: 50%;
+    border: 2px solid white;
+  }
+
+  .nome {
+    font-family: "Outfit", sans-serif;
+    font-size: 16px; 
+    font-weight: 400;
+    color: hsl(215, 51%, 70%); 
+    margin: 0 40px; 
+  }
+
+  .nome a {
+    color: white; 
+    text-decoration: none; 
+  }
+  
+  .nome a:hover {
+    text-decoration: none; 
+  }
+
+  footer {
+    font-family: "Outfit", sans-serif;
+    color: hsl(215, 51%, 70%);
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-top: 20px;
+    padding-bottom: 20px;
+
+    position:absolute; 
+    bottom: 0%; 
+    left: 50%;
+    transform: translate(-50%);
+  }
+  
+  footer a {
+    color: white; 
+    text-decoration: none; 
+  }
+  
+  footer a:hover {
+    text-decoration: none; 
+  }
+
+    /* Media Query para telas pequenas (320px a 768px) */
+@media screen and (min-width: 320px) and (max-width: 768px) {
