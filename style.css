@@ -2,12 +2,12 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 
-/** {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box
 }
-*/
+
 
 body {
     height: 100vh;
@@ -30,43 +30,47 @@ main {
     box-shadow: 0px 15px 19px 5px hsl(217deg 53.3% 7.29%);
 }
 
-div.imagem1 {
-    display: flex;
-    justify-content: center;
-    align-items: center; 
-}
-
-picture {
-    width: 300px;
-    height: 300px;
-    margin-top: 25px;
-    border-radius: 10px;
-
-    background-image: url('images/image-equilibrium.jpg');
-    background-repeat: no-repeat;
-    background-size: contain;
-
-    overflow: hidden;
+.image-container {
+  position: relative; 
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
 
 }
 
-picture:hover {
-    cursor: pointer;
-    background-image: url('images/image-equilibrium.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    opacity : 0.5;
-  background-image: url('images/icon-view.svg');
-  background-repeat: no-repeat;
-  background-size: contain;
-  transform: scale(1.1)
+.primary-image {
+  width: 90%;
+  height: auto;
+  top: 10px;
+  border-radius: 10px;
+  align-items: center; 
+}
 
+.secondary-image {
+  position: absolute; 
+  align-items: center; 
+  top: 10;
+  left: 10;
+  width: 95%;
+  height: 95%;
+  opacity: 0;
+  transition: opacity 0.1s ease;  
+  background-color: rgba(95, 92, 92, 0.039); 
+  align-items: center; 
+}
+
+.image-container:hover .secondary-image {
+  opacity: 1; 
 }
 
 div.texto1 {
-    margin: 0 25px;
     text-align: justify;
     font-family: "Outfit", sans-serif;
+    display: flex;
+  justify-content: center;
+  align-items: center;
   
 }
 
@@ -74,17 +78,24 @@ h1 {
     font-family: "Outfit", sans-serif;
     font-weight:500;
     color: white;
-    margin-top: 30px;
+    margin: 30px 20px 20px;
+    
 }
 
-h1:hover {
+.link1{
+  color: white;
+  text-decoration: none;
+}
+
+h1 > a:hover {
     color: hsl(178, 100%, 50%);
     text-decoration: none; 
 }
 
 p {
    color: hsl(215, 51%, 70%);
-   font-weight: 18px;
+   font-size: 17px;
+   margin: 5px 20px;
 }
 
 div.texto2 {
@@ -119,44 +130,33 @@ div.dias {
 }
 
 hr{
-    color:hsl(215, 32%, 27%);
-    width: 90%;  
+  width: 90%; 
+  color:hsl(215, 32%, 27%);
+  margin: 20px 20px;
   }
 
-  .imagem2 {
-    display: flex; 
+  .creator {
+    display: flex;
     align-items: center;
-    gap: 10px; 
-  }
-
-.imagemJules {
-  background-image: url('images/image-avatar.png');
-  background-repeat: no-repeat;
-  background-size: contain;
-  width: 40px;
-  height: 40px;
-  transform: translate(50%, 20%);
-  border-radius: 50%;
-  border: 2px solid white;
-
-  }
-
-  .nome {
-    font-family: "Outfit", sans-serif;
-    font-size: 16px; 
-    font-weight: 400;
-    color: hsl(215, 51%, 70%); 
-    margin: 0 40px; 
-  }
-
-  .nome a {
-    color: white; 
-    text-decoration: none; 
+    margin-top: 20px;
+    color: hsl(215, 51%, 70%);
   }
   
-  .nome a:hover {
+  img.avatar {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%; 
+    margin:  5px 20px 10px 30px;
+  }
+  
+  .creator a {
+    color:white;
+    text-decoration: none;
+  }
+  
+  .creator a:hover {
     color: hsl(178, 100%, 50%);
-    text-decoration: none; 
+    text-decoration: underline;
   }
 
   footer {
@@ -185,25 +185,23 @@ hr{
   }
 
     /* Media Query para telas pequenas (320px a 768px) */
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (min-width: 300px) and (max-width: 768px) {
 
   body {
-    height: 100%;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center; 
+
     }
 
     main {
-        width: 60%;
-        height: 90%;
-        margin: 0 auto;
+        width: 60vw;
+        height: 90vh;
         padding: 0 10px;
-        border-radius: 10px;
-      align-items: center; 
-
-      transform: translate(4%, 5%);
-    }
+        border-radius: 10px;     
+        align-items: center;     
+      }
 
 
   div.imagem1 {
@@ -221,8 +219,6 @@ hr{
       background-image: url('images/image-equilibrium.jpg');
       background-repeat: no-repeat;
       background-size: contain;
-  
-  
   }
   
   
@@ -232,21 +228,17 @@ hr{
       background-repeat: no-repeat;
       background-size: cover;
       opacity : 0.5;
-    background-image: url('images/icon-view.svg');
-    background-repeat: no-repeat;
-    background-size: contain;
-    transform: scale(1.1)
-  
+      background-image: url('images/icon-view.svg');
+      background-repeat: no-repeat;
+      background-size: contain;
+      transform: scale(1.1)
   }
-  
-
   
   div.texto1 {
       margin: 0 15px;    
   }
-
   
-h1 {
+  h1 {
   font-size: 17px;
 }
 
@@ -256,45 +248,63 @@ p {
  
 }
 
-div.texto2 {
-  columns: 2;
+.veth {
+   background-size: 10px;
+   font-size: 10px;
+  }
+
+p#eth {
+  font-size: 15px;
+  margin: 0 0 0 20px;
+}
+
+.dias {
+  background-image: url('images/icon-clock.svg');
+  background-repeat: no-repeat;
+  background-size: 18px;
+  margin: 0 0 0 43px;
+  color: hsl(178, 100%, 50%);
 }
 
 .veth {
   background-size: 11px;
-  font-size: 14px;
 }
 
-.dias2 {
-  font-size: 10px;
-}
 
 div.dias {
-  margin: 0 0 0 14px;
+  margin: 0 0 0 3px;
+  font-size: 12px;
+  gap: 1px
 }
 
-.imagem2 {
-  gap: 4px; 
-  padding-bottom: 10px;
+hr {
+  margin: 15px 15px;
   }
 
-  .imagemJules {
+  .creator {
+    margin-top: 5px;
+    font-size: 12px;
+  }
+  
+  img.avatar {
     width: 30px;
     height: 30px;
-    transform: translate(60%, -0.05%);
+    margin:  0px 20px 15px 15px;
+  }
+  
+  .creator a {
+    color:white;
+    text-decoration: none;
   }
 
-  .nome {
-    font-size: 14px; 
-        margin: 0 30px; 
-        transform: translate(0%, 0%);
+  span {
+    margin: 0px 0 15px ;
   }
-
-
+  
   footer {
-    font-size: 11px;
-    margin-top: 5px;
-    padding-bottom: 10px;
+    width: 100%;
+    font-size: 10px;
+    padding-bottom: 0px;
   }
 }
 
