@@ -185,7 +185,7 @@ hr{
   }
 
     /* Media Query para telas pequenas (320px a 768px) */
-@media screen and (min-width: 320px) and (max-width: 568px) {
+    @media screen and (min-width: 320px) and (max-width: 568px) {
 
   body {
     height: 100vh;
@@ -197,7 +197,7 @@ hr{
 
     main {
         width: 60vw;
-        height: 80vh;
+        height: 90vh;
         padding: 0 10px;
         border-radius: 10px;     
         align-items: center;     
@@ -284,30 +284,26 @@ hr {
   }
 }
 
-
-
-@media screen and (min-width: 375px) and (max-width: 567px) {
-
-  body {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center; 
-
-    }
+@media screen and (min-width: 375px) and (max-width: 667px) {
 
     main {
         width: 60vw;
-        height: 73vh;
+        height: 75vh;
         padding: 0 10px;
         border-radius: 10px;     
         align-items: center;     
       }
 
-hr {
-  margin: 5px 15px 7px;
-  }
+    }
+    @media screen and (min-width: 1024) and (max-width: 768px) {
 
-}
+          main {
+              width: 60vw;
+              height: 54vh;
+              padding: 0 10px;
+              border-radius: 10px;     
+              align-items: center;     
+            }
+          }
 
-
+        
