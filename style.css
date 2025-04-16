@@ -159,31 +159,7 @@ hr{
     text-decoration: underline;
   }
 
-  footer {
-    font-family: "Outfit", sans-serif;
-    color: hsl(215, 51%, 70%);
-    font-size: 12px;
-    display: flex;
-    justify-content: center;
-    align-items: center; 
-    margin-top: 20px;
-    padding-bottom: 0px;
-
-    position:absolute; 
-    top: 100%;
-    transform: translate(-0%, -90%);
-  }
-  
-  footer a {
-    color: white; 
-    text-decoration: none; 
-  }
-  
-  footer a:hover {
-    text-decoration: none; 
-  }
-
-    /* Media Query para telas pequenas (320px a 768px) */
+    /* Media Query para telas pequenas (320px a 568px) */
     @media screen and (min-width: 320px) and (max-width: 568px) {
 
   body {
@@ -283,6 +259,8 @@ hr {
   }
 }
 
+    /* Media Query para telas pequenas (375px a 667px) */
+
 @media screen and (min-width: 375px) and (max-width: 667px) {
 
     main {
@@ -300,6 +278,9 @@ hr {
       }
 
     }
+
+    
+    /* Media Query para telas pequenas (1024px a 768px) */
     @media screen and (min-width: 1024) and (max-width: 768px) {
 
           main {
@@ -316,6 +297,8 @@ hr {
              padding-bottom: 0px;
             }
           }
+
+    /* Media Query para telas pequenas (506px a 994px) */
 
           @media screen and (min-width: 506) and (max-width: 994px) {
             
