@@ -167,12 +167,11 @@ hr{
     justify-content: center;
     align-items: center; 
     margin-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 0px;
 
     position:absolute; 
-    bottom: 0%; 
-    left: 50%;
-    transform: translate(-50%);
+    top: 100%;
+    transform: translate(-0%, -90%);
   }
   
   footer a {
@@ -294,6 +293,12 @@ hr {
         align-items: center;     
       }
 
+      footer {
+        width: 100%;
+        margin-bottom: 0px;
+       padding-bottom: 0px;
+      }
+
     }
     @media screen and (min-width: 1024) and (max-width: 768px) {
 
@@ -304,6 +309,27 @@ hr {
               border-radius: 10px;     
               align-items: center;     
             }
+
+            footer {
+              width: 100%;
+              margin-bottom: 0px;
+             padding-bottom: 0px;
+            }
           }
 
-        
+          @media screen and (min-width: 506) and (max-width: 994px) {
+            
+          main {
+            width: 60vw;
+            height: 54vh;
+            padding: 0 10px;
+            border-radius: 10px;     
+            align-items: center;     
+          }
+
+          footer {
+            width: 100%;
+            margin-bottom: 0px;
+           padding-bottom: 0px;
+          }
+        }
