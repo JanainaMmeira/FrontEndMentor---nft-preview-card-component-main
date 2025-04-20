@@ -39,7 +39,7 @@ O desafio consistiu em replicar, com o máximo de fidelidade possível, o design
 - Ganhei mais confiança em projetos com base em mockups e designs estáticos.
 
 ## 🔗 Links úteis
- - Visualização do projeto ao vivo: 
+ - Visualização do projeto ao vivo: https://janainammeira.github.io/FrontEndMentor---nft-preview-card-component-main/ 
  - Repositório no GitHub
  - Desafio no Frontend Mentor
 
