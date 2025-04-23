@@ -1,5 +1,5 @@
 
-## ![image](https://github.com/user-attachments/assets/27334a9e-25b7-4a59-ab06-3c4de8bccc7f) Frontend Mentor - NFT preview card component ![image](https://github.com/user-attachments/assets/27334a9e-25b7-4a59-ab06-3c4de8bccc7f) 
+## Frontend Mentor - NFT preview card component !
 
 ![Design preview for the NFT preview card component coding challenge](./design/desktop-preview.jpg)
 
@@ -39,7 +39,7 @@ O desafio consistiu em replicar, com o máximo de fidelidade possível, o design
 - Ganhei mais confiança em projetos com base em mockups e designs estáticos.
 
 ## 🔗 Links úteis
- - Visualização do projeto ao vivo: 
+ - Visualização do projeto ao vivo: https://janainammeira.github.io/FrontEndMentor---nft-preview-card-component-main/ 
  - Repositório no GitHub
  - Desafio no Frontend Mentor
 
