@@ -19,10 +19,10 @@ body {
 }
 
 main {
-    width: 18.23%;
-    height: auto;
+    width: 25%;
+    height: 90%;
     align-items: center; 
-    border-radius: 10px;
+    border-radius: 20px;
     font-family: "Outfit", sans-serif;
     background-color: hsl(216, 50%, 16%);
     
@@ -36,15 +36,14 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 15px;
+  margin-top: 10px;
 
 }
 
 .primary-image {
-  width: 90%;
-  height: auto;
-  top: 10px;
-  border-radius: 10px;
+  width: 270px;
+  margin-top: 10px;
+  border-radius: 20px;
   align-items: center; 
 }
 
@@ -120,25 +119,26 @@ div.dias {
     background-image: url('images/icon-clock.svg');
     background-repeat: no-repeat;
     background-size: 20px;
-    margin: 0 0 0 43px;
+    margin: 0 0 0 20px;
     color: hsl(178, 100%, 50%);
 }
 
 #dias2 {
-    margin: 30px 0 0 0;
+    margin: 20px 0 0 0;
     text-align: right;
 }
 
 hr{
   width: 90%; 
   color:hsl(215, 32%, 27%);
-  margin: 20px 20px;
+  margin: 5px 20px;
   }
 
+  /*Rodapé com a  imagem do avatar*/
   .creator {
     display: flex;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 10px;
     color: hsl(215, 51%, 70%);
   }
   
@@ -159,6 +159,11 @@ hr{
     text-decoration: underline;
   }
 
+  /*Texto do avatar*/
+  span {
+  margin: 3px 0 10px ;  
+  }
+
     /* Media Query para telas pequenas (320px a 568px) */
     @media screen and (min-width: 320px) and (max-width: 568px) {
 
@@ -171,8 +176,8 @@ hr{
     }
 
     main {
-        width: 60vw;
-        height: 90vh;
+        width: 20%;
+        height: 80%;
         padding: 0 10px;
         border-radius: 10px;     
         align-items: center;     
@@ -249,14 +254,10 @@ hr {
   }
 
   span {
-    margin: 0px 0 15px ;
+    font-size: 10px;
+    margin: 0px 0 10px ;
   }
   
-  footer {
-    width: 100%;
-    font-size: 10px;
-    padding-bottom: 0px;
-  }
 }
 
     /* Media Query para telas pequenas (375px a 667px) */
@@ -265,54 +266,15 @@ hr {
 
     main {
         width: 60vw;
-        height: 75vh;
+        height: auto;
         padding: 0 10px;
         border-radius: 10px;     
         align-items: center;     
       }
 
-      footer {
-        width: 100%;
-        margin-bottom: 0px;
-       padding-bottom: 0px;
+      span {
+        font-size: 10px;
+        margin: 0px 0 10px ;
       }
 
     }
-
-    
-    /* Media Query para telas pequenas (1024px a 768px) */
-    @media screen and (min-width: 1024) and (max-width: 768px) {
-
-          main {
-              width: 60vw;
-              height: 54vh;
-              padding: 0 10px;
-              border-radius: 10px;     
-              align-items: center;     
-            }
-
-            footer {
-              width: 100%;
-              margin-bottom: 0px;
-             padding-bottom: 0px;
-            }
-          }
-
-    /* Media Query para telas pequenas (506px a 994px) */
-
-          @media screen and (min-width: 506) and (max-width: 994px) {
-            
-          main {
-            width: 60vw;
-            height: 54vh;
-            padding: 0 10px;
-            border-radius: 10px;     
-            align-items: center;     
-          }
-
-          footer {
-            width: 100%;
-            margin-bottom: 0px;
-           padding-bottom: 0px;
-          }
-        }
