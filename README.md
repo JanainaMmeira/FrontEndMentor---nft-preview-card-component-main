@@ -1,50 +1,47 @@
+<h1 align="center">Componente do Cartão de Visualização NFT 💎</h1>
 
-## Frontend Mentor - NFT preview card component !
+<p align="center">
+  <img src="./design/desktop-preview.jpg" alt="Prévia do design do componente NFT">
+</p>
 
-![Design preview for the NFT preview card component coding challenge](./design/desktop-preview.jpg)
+<div align="center"> 
+ 
+ ![GitHub repo size](https://img.shields.io/github/repo-size/Janainammeira/FrontEndMentor---Huddle-landing-page?color=blue) 
+![GitHub last commit](https://img.shields.io/github/last-commit/Janainammeira/FrontEndMentor---Huddle-landing-page?color=brightgreen)
+ 
+</div>
 
-## Bem-vindo(a)! 👋
+---
 
-## 💼 Projeto: Componente do cartão de visualização NFT
+## <div align="center"> 📋 Sobre o Projeto </div>
 
-Este projeto foi desenvolvido como parte de um desafio da plataforma Frontend Mentor, com o objetivo de praticar e aprimorar habilidades em HTML e CSS por meio da construção de um componente de interface realista e responsivo.
+Este projeto é um componente de cartão de visualização NFT, criado a partir de um desafio do **FrontEnd Mentor**. O principal objetivo foi praticar a construção de componentes de interface, replicando fielmente o design fornecido e garantindo a responsividade em diferentes tamanhos de tela.
 
-O desafio consistiu em replicar, com o máximo de fidelidade possível, o design de um componente do cartão de visualização NFT, considerando boas práticas de estruturação de conteúdo, estilização, responsividade e usabilidade.
+**Live Demo:** [**🔗 NFT Preview Card Component**](https://janainammeira.github.io/FrontEndMentor---nft-preview-card-component-main/)
 
-## 🎯 Objetivos principais:
+---
 
-- Reproduzir fielmente o layout fornecido (versões desktop e mobile);
-- Implementar estados visuais em elementos interativos (hover);
-- Trabalhar com variáveis de estilo (cores, fontes, espaçamentos) conforme o guia do projeto;
-- Publicar o projeto online e documentar o processo de desenvolvimento.
+## <div align="center">🛠️ Tecnologias Utilizadas </div>
 
-## 🛠️ Tecnologias utilizadas:
-- HTML5
-- CSS3
-- Organização de arquivos com boas práticas de estruturação;
-- Publicação do projeto via [GitHub Pages].
+<p align="center">
+  <img alt="HTML5" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
+  <img alt="CSS3" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
+  <img alt="Git" src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+  <img alt="GitHub" src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" />
+</p>
 
-## 🚧 Desafios enfrentados
+---
 
- - Ajustar margens e espaçamentos com base em imagens estáticas (JPG), sem medidas exatas;
- - Alinhar visualmente os elementos de forma responsiva;
- - Garantir compatibilidade visual entre diferentes tamanhos de tela;
- - Escolher combinações adequadas de font-size, padding e margin com base na observação do design.
+## <div align="center">✨ Recursos e Funcionalidades </div>
 
-## 📚 O que aprendi com este projeto
+* **Design Fiel:** Reprodução exata do layout original.
+* **Componente Responsivo:** O layout se adapta perfeitamente a diferentes dispositivos (desktop e mobile).
+* **Estados Visuais:** Efeitos de hover nos elementos interativos para uma melhor experiência do usuário.
+* **Organização de Código:** Boas práticas de estruturação de arquivos.
 
-- Refinei o uso de CSS Flexbox para organização de layouts;
-- Aprofundei o entendimento sobre tipografia responsiva;
-- Pratiquei o uso de variáveis de estilo e hierarquia visual;
-- Ganhei mais confiança em projetos com base em mockups e designs estáticos.
+---
 
-## 🔗 Links úteis
- - Visualização do projeto ao vivo: https://janainammeira.github.io/FrontEndMentor---nft-preview-card-component-main/ 
- - Repositório no GitHub
- - Desafio no Frontend Mentor
+## <div align="center">📜 Licença </div>
 
-## Autor
-- Frontend Mentor -[ @JanainaMmeira](https://www.frontendmentor.io/profile/JanainaMmeira)
-- Linkedin - [Janaína Moreira Meira](https://www.linkedin.com/in/janaína-moreira-meira-ab1674a5/)
-
-Obrigada!.
+<p> Este projeto está sob a licença MIT. </p>
+<p>Sinta-se à vontade para usar, aprender e adaptar, dando os devidos créditos.</p>
